@@ -13,20 +13,21 @@ $ rhino use_generate_tl.js
 
 Else use in web application
 
-```
+```javascript
 
 <script>
 
   function generate_food_data(){
     var food_data = 
     {
-      'type': 'food',
-      'size_g': 400,
-      'serving_size': '1/2 pizza',
-      'fat': { 'serving_g': 16.9, 'hundred_g': 4.5 }, 
-      'sat': { 'serving_g': 4.5, 'hundred_g': 1.2 },
-      'sugar': { 'serving_g': 12.8, 'hundred_g': 3.4 },
-      'salt': { 'serving_g': 1.6, 'hundred_g': 0.4 }
+      // variables added dynamically in webpage
+      'type': food_type,
+      'size_g': size_g,
+      'serving_size': serving_size,
+      'fat': { 'serving_g': fat_serving_g, 'hundred_g': fat_hundred_g }, 
+      'sat': { 'serving_g': sat_serving_g, 'hundred_g': fat_hundred_g },
+      'sugar': { 'serving_g': sugar_serving_g, 'hundred_g': sugar_hundred_g },
+      'salt': { 'serving_g': salt_serving_g, 'hundred_g': salt_hundred_g }
     }
     return food_data
   };
