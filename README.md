@@ -15,8 +15,6 @@ Else use in web application
 
 ```javascript
 
-<script>
-
   function generate_food_data(){
     var food_data = 
     {
@@ -37,8 +35,6 @@ Else use in web application
   traffic_lights = generate_all_tls(tl_data, food_data);
 
   json_tl = return_json_traffic_lights(traffic_lights);
-
-</script>
 
 
 ```
