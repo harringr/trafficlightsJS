@@ -38,3 +38,7 @@ Else use in web application
 
 
 ```
+
+### Testing
+
+Needs to be unit-tested.  Using (for now) [MochaJS](http://mochajs.org/).  Tests found in test/ directory.
